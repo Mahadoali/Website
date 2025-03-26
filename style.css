@@ -1,0 +1,426 @@
+
+.navigations ul {
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navigations {
+    display: flex;
+    list-style-type: none;
+    gap: clamp(20px, 4vw, 40px);
+    text-align: center;
+    justify-content: center;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+}
+
+.navigations a {
+    text-decoration: none;
+}
+
+.body {
+    background-color: wheat;
+    margin: 0;
+    background-color: aqua;
+}
+
+#nav {
+    text-decoration: none;
+}
+
+.submit {
+    color: white;
+    background-color: rgb(228, 138, 153);
+    border-radius: 5px;
+    font-weight: bold;
+    padding: clamp(5px, 1vw, 10px);
+    border: none;
+}
+
+.brands {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#man {
+    width: clamp(30px, 5vw, 40px);
+    background-color: rgb(247, 80, 108);
+    padding: clamp(3px, 1vw, 5px);
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+.platform {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: rotate(-8deg);
+    margin-top: clamp(20px, 5vw, 36px);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(50px, 10vw, 150px);
+}
+
+.parag {
+    display: flex;
+    flex-wrap: wrap;
+    gap: clamp(1rem, 2vw, 2rem);
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info {
+    background-color: azure;
+    width: clamp(200px, 50vw, 300px);
+}
+
+.salary {
+    background-color: azure;
+    padding: clamp(20px, 5vw, 50px);
+}
+
+#white-man {
+    width: clamp(80px, 15vw, 100px);
+    background-color: rgb(230, 98, 120);
+    padding: clamp(15px, 3vw, 26px);
+    object-fit: cover;
+    position: absolute;
+    top: clamp(50px, 10vw, 100px);
+    left: clamp(100px, 20vw, 210px);
+    border-radius: 10px;
+}
+
+.fast {
+    position: relative;
+}
+
+.uplod {
+    transform: rotate(-20deg);
+    position: relative;
+}
+
+#number {
+    border-color: green;
+    border: 2px solid;
+    border-radius: 100%;
+    border-width: 1px;
+    width: 30px;
+    top: -10px;
+    left: 210px;
+    position: absolute;
+}
+.mobile{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 290px;
+  margin-bottom: 100px;
+  font-weight: bolder;
+ 
+}
+.fa-apple {
+    color: white;
+}
+
+.app-store {
+    background-color: rgb(14, 14, 53);
+    width: clamp(80px, 20vw, 100px);
+    padding: clamp(5px, 1.5vw, 8px);
+}
+
+.apps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: clamp(20px, 4vw, 40px);
+}
+
+#charge {
+    color: red;
+    text-decoration: underline;
+}
+
+.play-store {
+    padding: clamp(15px, 3vw, 26px);
+}
+
+.image-container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: clamp(50px, 10vw, 100px);
+}
+
+.inner-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: clamp(100px, 20vw, 200px);
+    gap: clamp(30px, 6vw, 60px);
+}
+
+#truecaller {
+    width: clamp(100px, 25vw, 150px);
+}
+
+#dropx {
+    width: clamp(120px, 30vw, 180px);
+}
+
+#microsoft {
+    width: clamp(200px, 40vw, 300px);
+}
+
+.all-content {
+    background-color: azure;
+}
+
+.interface {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(2rem, 5vw, 5rem);
+}
+
+.product {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#women {
+    width: clamp(100px, 25vw, 150px);
+}
+
+.downloads {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(4rem, 8vw, 8rem);
+}
+
+#content {
+    color: red;
+    text-decoration: underline;
+}
+
+.account {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button {
+    height: clamp(8px, 2vw, 10px);
+    padding: clamp(20px, 3vw, 30px);
+    width: clamp(100px, 25vw, 150px);
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+#study {
+    width: clamp(30px, 8vw, 50px);
+    margin-top: clamp(30px, 5vw, 50px);
+}
+
+.stream {
+    background-color: peru;
+    padding-left: clamp(20px, 3vw, 30px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form {
+    background-color: white;
+}
+
+.btn {
+    background-color: rgb(209, 72, 95);
+    padding: clamp(8px, 1.5vw, 10px);
+    width: clamp(80px, 20vw, 100px);
+    border-radius: 10px;
+}
+
+.groups {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subscribers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.customer {
+    color: red;
+    text-decoration: underline;
+}
+
+.written {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(2rem, 5vw, 5rem);
+    margin-top: clamp(50px, 10vw, 100px);
+    font-weight: 400;
+    font-size: clamp(1.5rem, 4vw, 2.25rem);
+}
+
+.settings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(5rem, 15vw, 20rem);
+}
+
+.design {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    .navigations {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .inner-container {
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    #white-man {
+        position: static;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .written {
+        font-size: clamp(1rem, 3vw, 1.5rem);
+    }
+
+    .button {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+.ion-container{
+display: flex;
+align-items: center;
+gap: 5rem;
+background-color: rgb(12, 12, 71);
+color: white;
+width: 100%;
+}
+.fa-holder{
+    gap: 6rem;
+}
+.privacy{
+    display: flex;
+    gap: 10rem;
+    color: white;
+    background-color: black;
+    width: 100%;
+    justify-content: baseline;
+    align-items: center;
+    align-content: center;
+
+}
+#jacson{
+    width: 150px;
+    border-radius: 90%;
+    object-fit: cover;
+
+}
+#Edwin{
+    width: 100px;
+    border-radius: 100%;
+}
+.funds{
+    border: 2px solid rgb(182, 76, 93);
+    border-radius: 30px;
+    font-size: large;
+    position: relative;
+    padding: 60px;
+    
+}
+.words{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 100px;
+}
+.great{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(2rem, 5vw, 5rem);
+    margin-top: clamp(50px, 10vw, 100px);
+
+
+}
+#btn-n{
+    background-color: blue;
+    border-radius: 36px;
+    font-weight:bold ;
+    padding: 10px;
+}
+#star{
+    left: 390px;
+    position: absolute;
+    bottom: 250px;
+}
+#left{
+    position: absolute;
+    right: 510px;
+    bottom: 190px;
+border-radius: 20px;
+border: 2px solid red;
+   
+}
+#regular{
+    position: absolute;
+    left: 450px;
+    top: 100px;
+    display: flex;
+    gap: 2rem;
+    color: gold;
+}
+#fa-arrow{
+    position: absolute;
+    top: 190px;
+    left: 450px;
+    background-color: palevioletred;
+    width: 30px;
+    padding: 20px;
+    border-radius: 50px;
+    
+}
+.payment{
+    position: relative;
+}
+#word{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+    
