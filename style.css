@@ -134,7 +134,20 @@
 .fa-apple {
     color: white;
 }
+.traverse{
+    background-color: azure;
+    position: absolute;
+    left: 1250px;
+    bottom: 500px;
+    background-color: pink;
 
+}
+.social{
+    
+ justify-content: center;  
+ align-items: center;
+ text-align: center;
+}
 .app-store {
     background-color: rgb(14, 14, 53);
     width: clamp(80px, 20vw, 100px);
@@ -187,7 +200,42 @@
 .all-content {
     background-color: azure;
 }
+.shape{
+    position: absolute;
+    bottom: 650px;
+    left: 1500px;
+}
+.sett{
+    display: flex;
+    margin-left: 200px;
 
+}
+
+.acnt{
+    display: flex;
+    gap: 120px;
+}
+.sign-up{
+    color: white;
+    background-color: rgb(228, 138, 153);
+    border-radius: 5px;
+    font-weight: bold;
+    padding: clamp(5px, 1vw, 10px);
+    border: none; 
+}
+.address{
+    display: flex;
+    position: relative;
+}
+#arrow-right{
+    position: absolute;
+    left: 800px;
+}
+#bell{
+    position: absolute;
+    left: 500px;
+
+}
 .interface {
     display: flex;
     flex-wrap: wrap;
@@ -345,6 +393,11 @@ width: 100%;
     align-content: center;
 
 }
+@media screen and (max-width: 480px) {
+    .privacy {
+        font-size: clamp(1rem, 3vw, 1.5rem);
+    }
+}
 #jacson{
     width: 150px;
     border-radius: 90%;
@@ -356,18 +409,45 @@ width: 100%;
     border-radius: 100%;
 }
 .funds{
-    border: 2px solid rgb(182, 76, 93);
-    border-radius: 30px;
+
+    border-radius: 100px;
     font-size: large;
     position: relative;
     padding: 60px;
+    border: 2px solid pink;
+    background-color: azure;
     
+}
+@media screen and (max-width: 480px) {
+    .funds {
+        font-size: clamp(1rem, 3vw, 1.5rem);
+    }
+}
+.payment{
+    background-color: antiquewhite;
+    padding: 36px;
+}
+.mobile-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: clamp(50px, 10vw, 100px);
+    
+}
+.middle-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+    margin-top: clamp(50px, 10vw, 100px);
 }
 .words{
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-right: 100px;
+    margin-top: clamp(50px, 10vw, 100px);
 }
 .great{
     display: flex;
@@ -394,7 +474,7 @@ width: 100%;
     right: 510px;
     bottom: 190px;
 border-radius: 20px;
-border: 2px solid red;
+border: 2px solid re  margin-top: clamp(50px, 10vw, 100px);d;
    
 }
 #regular{
@@ -404,6 +484,9 @@ border: 2px solid red;
     display: flex;
     gap: 2rem;
     color: gold;
+}
+#word{
+    color: red;
 }
 #fa-arrow{
     position: absolute;
@@ -423,4 +506,19 @@ border: 2px solid red;
     justify-content: center;
     text-align: center;
 }
-    
+#img-ctn{
+    width: 80px;
+}
+.outer-content{
+    display: flex;
+}
+.image-ctn{
+    display: flex;
+}
+#img{
+    width: 30px;
+    border-radius: 60px;
+}
+.middle-content{
+    display: flex;
+}
